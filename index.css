@@ -1,0 +1,100 @@
+
+
+* {
+    /*box-sizing: border-box;*/
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /*margin-top: 10rem;*/
+
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.wrapper{
+    width: 480px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-position: 50vh;
+    border: 2px solid rgba(200,200,200,0.7);
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+.wrapper p{
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.val{
+    margin-top: 2vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.torch{
+    margin-top: 30vh;
+    margin-left: 60vh;
+    min-height: 100vh;
+    box-sizing: border-box;
+    border-width: 400px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    background: url("Map Pictures Andrew Neel.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: fantasy; 
+}
+
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding:  0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover{
+    background-color: #f0f0f0;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
